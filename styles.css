@@ -1,0 +1,11 @@
+/* Custom styles to ensure links do not grey out */
+    .navbar-dark .navbar-nav .nav-link:visited, .navbar-dark .navbar-nav .nav-link.active {
+        color: rgba(255, 255, 255, 0.75); /* Or any color you prefer */
+    }
+    
+    /* Optional: Adjusting hover color for better visibility */
+    .navbar-dark .navbar-nav .nav-link:hover {
+        color: #fff; /* Brighter color on hover */
+    }
+
+    
