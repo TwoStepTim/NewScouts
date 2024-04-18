@@ -1,28 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --colorSecond : #4e7e3e;
+    --colormain: #82641c;
+}
+body{
+    background-color: #e0d9c8;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(45, 45, 45);
+}
+h1{
+    color: var(--colormain);
+}
+h2{
+    color: var(--colorSecond);
+}
+h3{
+    color: var(--colormain);
+}
+h5{ 
+    color: var(--colormain);
+}
+h4{
+    color: var(--colorSecond);
+}
+.link-custom {
+    color: var(--colorSecond);
+    font-weight: 700;
+    font-style: normal;
+}
+a{
+    color:#4e3601; 
+    font-weight: 700;
+    font-style: italic;
+}
+.custom-btn {
+    background-color: #855c02;
+    color: #e0d9c8;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-btn:hover {
+    background-color: #e0d9c8;
+    color: #855c02;
+}
+.nav-link{
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
 /* Custom styles to ensure links do not grey out */
-    .navbar-dark .navbar-nav .nav-link:visited, .navbar-dark .navbar-nav .nav-link.active {
-        color: rgba(255, 255, 255, 0.75); /* Or any color you prefer */
-    }
-    
-    /* Optional: Adjusting hover color for better visibility */
-    .navbar-dark .navbar-nav .nav-link:hover {
-        color: #fff; /* Brighter color on hover */
-    }
+.navbar-dark .navbar-nav .nav-link:visited, .navbar-dark .navbar-nav .nav-link.active {
+    color: rgba(255, 255, 255, 0.75); /* Or any color you prefer */
+}
 
-    .show-more-btn{
-        margin-bottom: 20px;
-    }
+/* Optional: Adjusting hover color for better visibility */
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff; /* Brighter color on hover */
+}
 
-    .Three-column{
-        text-align: center;
-    }
-    
-    .link-img{
-        margin-bottom: 50px;
-    }
-    
-    .bio-Headers{
-        text-align: center;
-    }
-    .bios{
-        margin-bottom: 20px;
-    }
+.show-more-btn{
+    margin-bottom: 20px;
+}
+
+.Three-column{
+    text-align: center;
+}
+
+.link-img{
+    margin-bottom: 50px;
+}
+
+.bio-Headers{
+    text-align: center;
+}
+.bios{
+    margin-bottom: 20px;
+}
