@@ -20,11 +20,13 @@ body {
   .carousel-caption {
     bottom: 3rem;
     z-index: 10;
+    border-radius: 50px;
+    padding: 30px;
   }
   
   /* Declare heights because of positioning of img element */
   .carousel-item {
-    height: 32rem;
+    height: 40rem;
     background-color: #777;
   }
   .carousel-item > img {
@@ -32,8 +34,16 @@ body {
     top: 0;
     left: 0;
     min-width: 100%;
-    height: 32rem;
+    height: 40rem;
   }
+  
+  img{
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  
+  
+
   
   
   /* MARKETING CONTENT
