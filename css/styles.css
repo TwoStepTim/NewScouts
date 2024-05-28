@@ -140,3 +140,11 @@ a{
   body.loaded .preloader {
     display: none;
   }
+
+  .Activities{
+    padding: 10px;
+    border-radius: 50px;
+    border-color: transparent;
+    background-color: #e8ca89;
+    margin-top: 50px;
+  }
